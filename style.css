@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+@layer base {
+    @font-face {
+        font-family: 'helvetica-roman';
+        src: font-url('./assets/fonts/HelveticaNeue-Roman.woff') format('woff');
+        font-family: 'helvetica-condensed';
+        src: font-url('./assets/fonts/HelveticaNeueCondensedBlack.woff') format('woff');
+    }
+}
